@@ -1,3 +1,5 @@
+"use client";
+
 import { useEffect, useState } from "react";
 
 /** 检查用户是否填写 aiKey 以及唤起弹窗操作 */

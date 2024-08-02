@@ -31,7 +31,6 @@ export default function ChatPage() {
   const chatContentRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    console.log(localStorage, "dd");
     let aiKey = localStorage.getItem("aiKey");
     if (aiKey) {
     }
