@@ -2,6 +2,16 @@
 
 基于 https://openrouter.ai/ 里面提供的免费 model “Mistral 7B Instruct”作为 ai provider 为基础开发聊天对话机器人
 
+![ai 聊天室](public/chat.png)
+
+### 体验步骤
+
+体验网址（需科学上网访问）：https://nextjs-open-router-ai-chat.vercel.app
+
+在 https://openrouter.ai/ 申请 key 并在弹窗中填写（key 是保存在 localStorage 中，目前填错或想修改得去控制台清空 aiKey ）
+
+![ai 聊天](public/tip.png)
+
 ### 技术栈
 
 - create-react-app

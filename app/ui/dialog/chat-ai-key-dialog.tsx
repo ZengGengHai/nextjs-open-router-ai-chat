@@ -31,10 +31,10 @@ export function ChatAiKeyDialog({
       aria-labelledby="alert-dialog-title"
       aria-describedby="alert-dialog-description"
     >
-      <DialogTitle id="alert-dialog-title" className="font-medium">
+      <div id="alert-dialog-title" className="font-medium p-4 pb-0">
         {"请填写 key 值"}
-      </DialogTitle>
-      <DialogContent className="w-[40vw] min-w-[300px]">
+      </div>
+      <DialogContent className="w-[40vw] min-w-[200px] max-w-[500px] px-4 py-2">
         <Input
           autoFocus
           value={aiKey}
