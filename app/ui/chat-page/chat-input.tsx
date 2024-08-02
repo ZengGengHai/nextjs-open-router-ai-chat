@@ -17,7 +17,6 @@ export const ChatInput = (props: ChatInputProps) => {
         fullWidth
         hiddenLabel
         value={inputValue}
-        // label="DD"
         id="fullWidth"
         autoFocus
         InputProps={{

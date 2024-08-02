@@ -22,7 +22,7 @@ export default function ChatPage() {
     {
       id: "1",
       content:
-        "我是来自 OpenRouter （https://openrouter.ai/） 中免费模型 “Mistral 7B Instruct” 实现 Ai 对话，欢迎体验，项目地址为 https://github.com/ZengGengHai/nextjs-open-router-ai-chat  ",
+        "我是来自 OpenRouter （https://openrouter.ai/） 中免费模型 “Mistral 7B Instruct” 实现 Ai 对话，欢迎体验，体验使用需要申请 key; 具体参考项目地址中说明文档 https://github.com/ZengGengHai/nextjs-open-router-ai-chat  ",
       status: "success",
       role: "assistant",
     },
