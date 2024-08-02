@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# OpenRouterAiChat
 
-## Getting Started
+基于 https://openrouter.ai/ 里面提供的免费 model “Mistral 7B Instruct”作为 ai provider 为基础开发聊天对话机器人
 
-First, run the development server:
+### 技术栈
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- create-react-app
+- mui
+- react-markdown
+- tailwindCss
+- typescript
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 版本
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- node v20.12.0
+- pnpm 8.15.4
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 运行
 
-## Learn More
+pnpm install
+pnpm run dev
 
-To learn more about Next.js, take a look at the following resources:
+### 待办
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+交互
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- ai-key 弹窗设置按钮
+- ai-key 报错重新唤起填写弹窗
+- 黑白主题色
+- 词条文案国际化
 
-## Deploy on Vercel
+架构
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- prettier 代码风格以及格式化
+- husky git 钩子，pre-commit 执行 lint-staged 命令
+- lint-staged 对 git 暂存区文件使用 prettier 格式化代码后用 esLink 检测代码情况
