@@ -6,7 +6,8 @@ import { useEffect, useState } from "react";
 export function useAiKeyCheck() {
   const [open, setOpen] = useState(false);
 
-  const aiKey = localStorage.getItem("aiKey");
+  const aiKey =
+    typeof window !== "undefined" ? window.localStorage?.getItem("aiKey") : "";
 
   useEffect(() => {
     if (!aiKey) {
